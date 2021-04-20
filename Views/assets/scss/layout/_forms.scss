@@ -1,0 +1,33 @@
+.form-css {
+    & label {
+        font-size: 14px;
+    }
+    & .form-control {
+        border: 1px solid $reserve-color;
+        &:focus {
+            background-color: #fff;
+            border-color: $color-primary;
+            box-shadow: none;
+        }
+        &:disabled {
+            background-color: #fff;
+        }
+        &::placeholder {
+            font-size: 8 !important;
+            color: $reserve-color;
+            font-weight: 200;
+        }
+    }
+    & .textarea-editor {
+        resize: none;
+        height: 150px;
+    }
+    & .form-p {
+        color: $color-font;
+        font-size: 14px;
+    }
+    .input-group-text {
+        border: 1px solid #fff;
+        background-color: transparent;
+    }
+}

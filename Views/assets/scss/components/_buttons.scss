@@ -1,0 +1,35 @@
+.button-main {
+    padding: 10px 40px !important;
+    font-size: 14px !important;
+    opacity: 0.85;
+    &:hover {
+        opacity: 1;
+    }
+    &.btn-active {
+        background-color: $color-login-button;
+        color: #fff;
+        &:hover {
+            color: #fff;
+        }
+    }
+    &.btn-delete {
+        background-color: $btn-delete;
+        color: #fff;
+        &:hover {
+            color: #fff;
+        }
+    }
+    &.btn-close {
+        background-color: #fff;
+        border: 1px solid $btn-close;
+        color: #000;
+        &:hover {
+            color: #000;
+        }
+    }
+}
+
+.f-focus:focus {
+    box-shadow: none !important;
+    outline: none !important;
+}

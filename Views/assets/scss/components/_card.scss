@@ -1,0 +1,35 @@
+.card-profile {
+    margin-top: 150px;
+    & .card-body {
+        & label {
+            display: inline-block;
+            // background-color:$color-primary;
+            color: #fff;
+            padding: 13px 40px;
+            border-radius: 0.3rem;
+            cursor: pointer;
+            margin-top: 1rem;
+            font-size: 12px;
+            opacity: 0.9;
+            &:hover {
+                opacity: 1;
+            }
+        }
+        margin: -150px auto 0;
+        & img {
+            box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+        }
+        & .description-p {
+            font-size: 15px;
+            color: $reserve-color;
+        }
+    }
+}
+
+.card-notification {
+    & span {
+        line-height: 1.6;
+        font-weight: 300;
+        font-size: 14px;
+    }
+}
